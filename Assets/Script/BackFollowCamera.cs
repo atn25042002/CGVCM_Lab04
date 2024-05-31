@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowCamera : MonoBehaviour
+public class BackFollowCamera : MonoBehaviour
 {
     public Transform target; // El personaje que la cámara seguirá
     public float smoothSpeed = 0.125f; // La velocidad de suavizado para la rotación
