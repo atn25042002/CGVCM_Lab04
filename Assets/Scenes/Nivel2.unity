@@ -889,7 +889,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1078868141710040, guid: db58b1eda8133c84983d20108c13888e, type: 3}
       propertyPath: m_Name
-      value: PTK_Cuboid_5
+      value: Plataforma Movil
       objectReference: {fileID: 0}
     - target: {fileID: 1078868141710040, guid: db58b1eda8133c84983d20108c13888e, type: 3}
       propertyPath: m_TagString
@@ -2209,7 +2209,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1078868141710040, guid: db58b1eda8133c84983d20108c13888e, type: 3}
       propertyPath: m_Name
-      value: PTK_Cuboid_5 (1)
+      value: Plataforma Movil 2
       objectReference: {fileID: 0}
     - target: {fileID: 1078868141710040, guid: db58b1eda8133c84983d20108c13888e, type: 3}
       propertyPath: m_TagString
