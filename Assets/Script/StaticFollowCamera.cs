@@ -27,21 +27,6 @@ public class StaticFollowCamera : MonoBehaviour
         {            
             MoveCameraBehindPlayer();
         }
-        // Dirección del rayo desde la cámara hacia el jugador
-        Vector3 directionToPlayer = target.position - transform.position;
-
-        // Información del impacto del raycast
-        RaycastHit hit;
-
-        // Ejecutar el Raycast
-        if (Physics.Raycast(transform.position, directionToPlayer, out hit))
-        {
-            // Comprobar si el objeto impactado tiene el tag "Obstaculo"
-            if (hit.collider.CompareTag("Obstaculo"))
-            {
-                MoveCameraBehindPlayer();
-            }
-        }
     }
 
     private void LateUpdate()
