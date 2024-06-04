@@ -8,10 +8,10 @@ public class CameraBoxStatic : MonoBehaviour
     public Camera CameraIn;
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the object that triggered the collider has the tag "Player"
+        // Verifica si el usuario ingreso al trigger
         if (other.CompareTag("Player"))
         {
-            // Activate Camera2 and deactivate Camera1 when the player enters the trigger
+            // Activa Camera2 y desactiva Camera1
             CameraOut.enabled = false;
             CameraIn.enabled = true;
         }
@@ -19,10 +19,10 @@ public class CameraBoxStatic : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        // Check if the object that exited the collider has the tag "Player"
+        // Verifica si el usuario salio del trigger
         if (other.CompareTag("Player"))
         {
-            // Reactivate Camera1 and deactivate Camera2 when the player exits the trigger
+            // Reactiva Camera1 y desactiva Camera2
             CameraOut.enabled = true;
             CameraIn.enabled = false;
         }

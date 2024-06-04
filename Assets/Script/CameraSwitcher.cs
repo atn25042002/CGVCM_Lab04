@@ -9,10 +9,9 @@ public class CameraSwitcher : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the object that triggered the collider has the tag "Player"
         if (other.CompareTag("Player"))
         {
-            // Switch cameras when the trigger is entered by the player
+            // Cambia la camara al entrar en colision con el jugador
             if (Camera1.enabled)
             {
                 Camera1.enabled = false;
