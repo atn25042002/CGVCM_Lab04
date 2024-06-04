@@ -308,6 +308,7 @@ GameObject:
   - component: {fileID: 193062921}
   - component: {fileID: 193062920}
   - component: {fileID: 193062919}
+  - component: {fileID: 193062923}
   m_Layer: 0
   m_Name: Camara_Superior
   m_TagString: MainCamera
@@ -322,7 +323,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193062917}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91844793ef3441b4ba0e405c3215a6dd, type: 3}
   m_Name: 
@@ -405,6 +406,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &193062923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193062917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124f31ce5cae3d343a487c63d9a684c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 16546880}
+  camTransform: {fileID: 193062922}
+  offset: {x: 0, y: 0, z: 0}
+  smoothTime: 0.3
 --- !u!1001 &418224145
 PrefabInstance:
   m_ObjectHideFlags: 0

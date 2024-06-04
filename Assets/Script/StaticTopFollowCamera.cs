@@ -1,8 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StaticFollowCamera : MonoBehaviour
+public class StaticTopFollowCamera : MonoBehaviour
 {
     // camera will follow this object
     public Transform target;
